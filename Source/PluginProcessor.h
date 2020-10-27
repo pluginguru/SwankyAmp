@@ -125,5 +125,8 @@ private:
   CriticalSection setStateMutex;
   String storedPresetText;
 
+  // SD: simplistic start-up "thump" suppression: zero output for 1st 1024 samples
+  int sampleCountForThumpSuppression = 0;
+
   JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR(SwankyAmpAudioProcessor)
 };

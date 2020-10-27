@@ -478,6 +478,13 @@ void SwankyAmpAudioProcessor::processBlock(
         && meterListenersOut[1] != nullptr)
       meterListenersOut[1]->update(outLevel);
   }
+
+  // SD: simplistic start-up "thump" suppression: zero output for 1st 1024 samples
+  if (sampleCountForThumpSuppression < 1024)
+  {
+    buffer.clear();
+    sampleCountForThumpSuppression += numSamples;
+  }
 }
 
 bool SwankyAmpAudioProcessor::hasEditor() const
