@@ -5,29 +5,13 @@
 	};
 	objectVersion = 46;
 	objects = {
-		1F5F0E01A5236B6E8D0A1171 = {
+		B1B9D8F01499F7F2080EA0F6 = {
 			isa = PBXBuildFile;
-			fileRef = 3A3B8185815BB6FF153325AD;
-		};
-		AC4BA4E1BF57899488594C9C = {
-			isa = PBXBuildFile;
-			fileRef = B6D598D8AEA1FF5BC3D4BD92;
-		};
-		4D6F7F4BC8C5A45B5FC9F1E9 = {
-			isa = PBXBuildFile;
-			fileRef = 23784367939770DD260DB77C;
-		};
-		BF8F5D08E7F3A95CAA5982B6 = {
-			isa = PBXBuildFile;
-			fileRef = 67DDA139F83D9E5F7486E101;
+			fileRef = 9DD315103D766E9160F7D378;
 		};
 		B5A8ADA37A37FEB2DE139263 = {
 			isa = PBXBuildFile;
 			fileRef = EC3CADD2B091D25512B978DD;
-		};
-		392B13E5E2340361D58DA4D1 = {
-			isa = PBXBuildFile;
-			fileRef = 2E6A6C938A7062D29CFA1EC0;
 		};
 		E7B82EC348B0009B8B557E60 = {
 			isa = PBXBuildFile;
@@ -173,26 +157,6 @@
 			isa = PBXBuildFile;
 			fileRef = 173EB9DF86DEAEDD686B112C;
 		};
-		2ACF1539E0008C60788FA730 = {
-			isa = PBXBuildFile;
-			fileRef = 400E1D00001C3783C3A62E97;
-		};
-		7DBBB2ADC19802A2A29603D6 = {
-			isa = PBXBuildFile;
-			fileRef = 388BA9C56D9F003E1C42E655;
-		};
-		1683F49B29EC4923BA50CA3C = {
-			isa = PBXBuildFile;
-			fileRef = DE12EFBFA8C6F18AE6C65323;
-		};
-		FA85DAF2FBC47A23AB0ECA22 = {
-			isa = PBXBuildFile;
-			fileRef = EA8AD382F2246FF0F7BE7292;
-		};
-		2ACEF8EA7C54CA5885EC0F3B = {
-			isa = PBXBuildFile;
-			fileRef = 4D24A5E5F22EF40BFFCFC56A;
-		};
 		CD58E08EF6D1875F15189121 = {
 			isa = PBXBuildFile;
 			fileRef = 082435C72292654166FF9A54;
@@ -201,9 +165,9 @@
 			isa = PBXBuildFile;
 			fileRef = 0F84A1A1B16F98B54227A447;
 		};
-		637CC3BA6074BBDD7EEFE993 = {
+		9D8760572656445D2CEE297A = {
 			isa = PBXBuildFile;
-			fileRef = C4FDB44520A1801A4454C2BE;
+			fileRef = 9C030294768A57D48DDF46DD;
 		};
 		BCBE61173A8512B3213CB75D = {
 			isa = PBXBuildFile;
@@ -329,19 +293,19 @@
 			path = "../../JuceLibraryCode/include_juce_cryptography.mm";
 			sourceTree = "SOURCE_ROOT";
 		};
-		11669FF2CA49E90C7CAEEF8F = {
-			isa = PBXFileReference;
-			lastKnownFileType = text.plist.xml;
-			name = "Info-AAX.plist";
-			path = "Info-AAX.plist";
-			sourceTree = "SOURCE_ROOT";
-		};
 		14BD5CBA4127586C8ABD3F6F = {
 			isa = PBXFileReference;
 			lastKnownFileType = file;
 			name = "juce_gui_basics";
 			path = "~/JUCE/modules/juce_gui_basics";
 			sourceTree = "<absolute>";
+		};
+		15C957D3515403E6DEBFF802 = {
+			isa = PBXFileReference;
+			lastKnownFileType = text.plist.xml;
+			name = "Info-VST.plist";
+			path = "Info-VST.plist";
+			sourceTree = "SOURCE_ROOT";
 		};
 		173EB9DF86DEAEDD686B112C = {
 			isa = PBXFileReference;
@@ -385,6 +349,13 @@
 			path = ../../Source/Components/RSliderLabel.cpp;
 			sourceTree = "SOURCE_ROOT";
 		};
+		2CFFE32D339DB4701C8A2DF8 = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.framework;
+			name = Cocoa.framework;
+			path = System/Library/Frameworks/Cocoa.framework;
+			sourceTree = SDKROOT;
+		};
 		2E10367FDC8EB67CDA056A86 = {
 			isa = PBXFileReference;
 			lastKnownFileType = sourcecode.c.h;
@@ -398,6 +369,13 @@
 			name = TetrodeGrid.h;
 			path = ../../Source/dsp/TetrodeGrid.h;
 			sourceTree = "SOURCE_ROOT";
+		};
+		307831B54DEECF03EC4BCA45 = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.framework;
+			name = Carbon.framework;
+			path = System/Library/Frameworks/Carbon.framework;
+			sourceTree = SDKROOT;
 		};
 		326C59FB6919910FA25E1B21 = {
 			isa = PBXFileReference;
@@ -427,20 +405,6 @@
 			path = ../../Source/dsp/ToneStackMFaust.h;
 			sourceTree = "SOURCE_ROOT";
 		};
-		388BA9C56D9F003E1C42E655 = {
-			isa = PBXFileReference;
-			lastKnownFileType = file.r;
-			name = "include_juce_audio_plugin_client_AU.r";
-			path = "../../JuceLibraryCode/include_juce_audio_plugin_client_AU.r";
-			sourceTree = "SOURCE_ROOT";
-		};
-		3A3B8185815BB6FF153325AD = {
-			isa = PBXFileReference;
-			explicitFileType = wrapper.cfbundle;
-			includeInIndex = 0;
-			path = SwankyAmp.vst3;
-			sourceTree = "BUILT_PRODUCTS_DIR";
-		};
 		3BB443F3D9FE041CA53857A1 = {
 			isa = PBXFileReference;
 			lastKnownFileType = sourcecode.c.h;
@@ -453,13 +417,6 @@
 			lastKnownFileType = sourcecode.c.h;
 			name = TriodePlate.h;
 			path = ../../Source/dsp/TriodePlate.h;
-			sourceTree = "SOURCE_ROOT";
-		};
-		400E1D00001C3783C3A62E97 = {
-			isa = PBXFileReference;
-			lastKnownFileType = sourcecode.cpp.objcpp;
-			name = "include_juce_audio_plugin_client_AAX.mm";
-			path = "../../JuceLibraryCode/include_juce_audio_plugin_client_AAX.mm";
 			sourceTree = "SOURCE_ROOT";
 		};
 		4414DAC183F81C8A3F77E466 = {
@@ -476,12 +433,12 @@
 			path = ../../Source/PresetManager.cpp;
 			sourceTree = "SOURCE_ROOT";
 		};
-		4D24A5E5F22EF40BFFCFC56A = {
+		4D7759AE7485AB52572B330A = {
 			isa = PBXFileReference;
-			lastKnownFileType = sourcecode.cpp.cpp;
-			name = "include_juce_audio_plugin_client_Standalone.cpp";
-			path = "../../JuceLibraryCode/include_juce_audio_plugin_client_Standalone.cpp";
-			sourceTree = "SOURCE_ROOT";
+			lastKnownFileType = wrapper.framework;
+			name = CoreMIDI.framework;
+			path = System/Library/Frameworks/CoreMIDI.framework;
+			sourceTree = SDKROOT;
 		};
 		4DC6BA8BB4C049A5834A43F4 = {
 			isa = PBXFileReference;
@@ -489,6 +446,13 @@
 			name = UI.h;
 			path = ../../Source/dsp/UI.h;
 			sourceTree = "SOURCE_ROOT";
+		};
+		4F98434E7DD515463E5603CC = {
+			isa = PBXFileReference;
+			lastKnownFileType = file;
+			name = "juce_opengl";
+			path = "~/JUCE/modules/juce_opengl";
+			sourceTree = "<absolute>";
 		};
 		529A38DC6B0E839FF2B1756E = {
 			isa = PBXFileReference;
@@ -503,69 +467,6 @@
 			name = Meta.h;
 			path = ../../Source/dsp/Meta.h;
 			sourceTree = "SOURCE_ROOT";
-		};
-		5D40A7937E0F8E42459A9F9B = {
-			isa = PBXFileReference;
-			lastKnownFileType = file.xml;
-			name = tooltips.xml;
-			path = ../../Resources/tooltips.xml;
-			sourceTree = "SOURCE_ROOT";
-		};
-		B6D598D8AEA1FF5BC3D4BD92 = {
-			isa = PBXFileReference;
-			explicitFileType = wrapper.cfbundle;
-			includeInIndex = 0;
-			path = SwankyAmp.aaxplugin;
-			sourceTree = "BUILT_PRODUCTS_DIR";
-		};
-		23784367939770DD260DB77C = {
-			isa = PBXFileReference;
-			explicitFileType = wrapper.cfbundle;
-			includeInIndex = 0;
-			path = SwankyAmp.component;
-			sourceTree = "BUILT_PRODUCTS_DIR";
-		};
-		2CFFE32D339DB4701C8A2DF8 = {
-			isa = PBXFileReference;
-			lastKnownFileType = wrapper.framework;
-			name = Cocoa.framework;
-			path = System/Library/Frameworks/Cocoa.framework;
-			sourceTree = SDKROOT;
-		};
-		2E6A6C938A7062D29CFA1EC0 = {
-			isa = PBXFileReference;
-			lastKnownFileType = wrapper.framework;
-			name = AudioUnit.framework;
-			path = System/Library/Frameworks/AudioUnit.framework;
-			sourceTree = SDKROOT;
-		};
-		307831B54DEECF03EC4BCA45 = {
-			isa = PBXFileReference;
-			lastKnownFileType = wrapper.framework;
-			name = Carbon.framework;
-			path = System/Library/Frameworks/Carbon.framework;
-			sourceTree = SDKROOT;
-		};
-		49D1E5D1A3B1F965BB7E838D = {
-			isa = PBXFileReference;
-			lastKnownFileType = text.plist.xml;
-			name = "Info-VST3.plist";
-			path = "Info-VST3.plist";
-			sourceTree = "SOURCE_ROOT";
-		};
-		4D7759AE7485AB52572B330A = {
-			isa = PBXFileReference;
-			lastKnownFileType = wrapper.framework;
-			name = CoreMIDI.framework;
-			path = System/Library/Frameworks/CoreMIDI.framework;
-			sourceTree = SDKROOT;
-		};
-		4F98434E7DD515463E5603CC = {
-			isa = PBXFileReference;
-			lastKnownFileType = file;
-			name = "juce_opengl";
-			path = "~/JUCE/modules/juce_opengl";
-			sourceTree = "<absolute>";
 		};
 		58259A1EEEEB2D19003511DF = {
 			isa = PBXFileReference;
@@ -595,18 +496,18 @@
 			path = "../../JuceLibraryCode/include_juce_audio_basics.mm";
 			sourceTree = "SOURCE_ROOT";
 		};
+		5D40A7937E0F8E42459A9F9B = {
+			isa = PBXFileReference;
+			lastKnownFileType = file.xml;
+			name = tooltips.xml;
+			path = ../../Resources/tooltips.xml;
+			sourceTree = "SOURCE_ROOT";
+		};
 		5D7AEDE8A36176C40CC5160B = {
 			isa = PBXFileReference;
 			lastKnownFileType = sourcecode.c.h;
 			name = PushPullAmp.h;
 			path = ../../Source/dsp/PushPullAmp.h;
-			sourceTree = "SOURCE_ROOT";
-		};
-		62D7D06D51B0DF84E2E977DA = {
-			isa = PBXFileReference;
-			lastKnownFileType = text.plist.xml;
-			name = "Info-AU.plist";
-			path = "Info-AU.plist";
 			sourceTree = "SOURCE_ROOT";
 		};
 		638CA5035ACEADC1AF340E2F = {
@@ -629,13 +530,6 @@
 			name = "juce_gui_extra";
 			path = "~/JUCE/modules/juce_gui_extra";
 			sourceTree = "<absolute>";
-		};
-		67DDA139F83D9E5F7486E101 = {
-			isa = PBXFileReference;
-			explicitFileType = wrapper.application;
-			includeInIndex = 0;
-			path = SwankyAmp.app;
-			sourceTree = "BUILT_PRODUCTS_DIR";
 		};
 		69AF89A7673821C66CFD0D88 = {
 			isa = PBXFileReference;
@@ -812,6 +706,20 @@
 			path = ../../Source/Components/LevelMeter.cpp;
 			sourceTree = "SOURCE_ROOT";
 		};
+		9C030294768A57D48DDF46DD = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "include_juce_audio_plugin_client_VST2.cpp";
+			path = "../../JuceLibraryCode/include_juce_audio_plugin_client_VST2.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		9DD315103D766E9160F7D378 = {
+			isa = PBXFileReference;
+			explicitFileType = wrapper.cfbundle;
+			includeInIndex = 0;
+			path = SwankyAmp.vst;
+			sourceTree = "BUILT_PRODUCTS_DIR";
+		};
 		A1718CD5B181B95CD59D5605 = {
 			isa = PBXFileReference;
 			lastKnownFileType = sourcecode.c.h;
@@ -903,13 +811,6 @@
 			path = ../../Source/Components/CabGroup.h;
 			sourceTree = "SOURCE_ROOT";
 		};
-		C4FDB44520A1801A4454C2BE = {
-			isa = PBXFileReference;
-			lastKnownFileType = sourcecode.cpp.cpp;
-			name = "include_juce_audio_plugin_client_VST3.cpp";
-			path = "../../JuceLibraryCode/include_juce_audio_plugin_client_VST3.cpp";
-			sourceTree = "SOURCE_ROOT";
-		};
 		C5E9679DAA02820CC591A3AA = {
 			isa = PBXFileReference;
 			lastKnownFileType = sourcecode.c.h;
@@ -987,13 +888,6 @@
 			path = ../../Source/Components/LevelsGroup.cpp;
 			sourceTree = "SOURCE_ROOT";
 		};
-		D4EA9C770C3BDE38099A38B4 = {
-			isa = PBXFileReference;
-			lastKnownFileType = text.plist.xml;
-			name = "Info-Standalone_Plugin.plist";
-			path = "Info-Standalone_Plugin.plist";
-			sourceTree = "SOURCE_ROOT";
-		};
 		D5AFF6E33477828F52D1ACFF = {
 			isa = PBXFileReference;
 			lastKnownFileType = wrapper.framework;
@@ -1001,25 +895,11 @@
 			path = System/Library/Frameworks/CoreAudio.framework;
 			sourceTree = SDKROOT;
 		};
-		DE12EFBFA8C6F18AE6C65323 = {
-			isa = PBXFileReference;
-			lastKnownFileType = sourcecode.cpp.objcpp;
-			name = "include_juce_audio_plugin_client_AU_1.mm";
-			path = "../../JuceLibraryCode/include_juce_audio_plugin_client_AU_1.mm";
-			sourceTree = "SOURCE_ROOT";
-		};
 		E1CE81915886BBD598DB3848 = {
 			isa = PBXFileReference;
 			lastKnownFileType = sourcecode.cpp.objcpp;
 			name = "include_juce_gui_basics.mm";
 			path = "../../JuceLibraryCode/include_juce_gui_basics.mm";
-			sourceTree = "SOURCE_ROOT";
-		};
-		EA8AD382F2246FF0F7BE7292 = {
-			isa = PBXFileReference;
-			lastKnownFileType = sourcecode.cpp.objcpp;
-			name = "include_juce_audio_plugin_client_AU_2.mm";
-			path = "../../JuceLibraryCode/include_juce_audio_plugin_client_AU_2.mm";
 			sourceTree = "SOURCE_ROOT";
 		};
 		EB282300CDDAFA70F5B6FC0A = {
@@ -1251,14 +1131,9 @@
 				5B74F93A41510364FF735CA6,
 				C9A36E0F33663BFE47633CE3,
 				173EB9DF86DEAEDD686B112C,
-				400E1D00001C3783C3A62E97,
-				388BA9C56D9F003E1C42E655,
-				DE12EFBFA8C6F18AE6C65323,
-				EA8AD382F2246FF0F7BE7292,
-				4D24A5E5F22EF40BFFCFC56A,
 				082435C72292654166FF9A54,
 				0F84A1A1B16F98B54227A447,
-				C4FDB44520A1801A4454C2BE,
+				9C030294768A57D48DDF46DD,
 				06A0C00822FE26A33CC6A6DC,
 				A40E105BF5EC7E26D73B2F00,
 				EB282300CDDAFA70F5B6FC0A,
@@ -1278,10 +1153,7 @@
 		D786BD73DD0CCD00751BC5B3 = {
 			isa = PBXGroup;
 			children = (
-				49D1E5D1A3B1F965BB7E838D,
-				11669FF2CA49E90C7CAEEF8F,
-				62D7D06D51B0DF84E2E977DA,
-				D4EA9C770C3BDE38099A38B4,
+				15C957D3515403E6DEBFF802,
 				0A400B6F77043875D7BBEF90,
 			);
 			name = Resources;
@@ -1290,7 +1162,6 @@
 		70FDD8BEEFC0AAE637F78B57 = {
 			isa = PBXGroup;
 			children = (
-				2E6A6C938A7062D29CFA1EC0,
 				78BC8005FF8A8B16705B0647,
 				87B906C60C2144E8501718E7,
 				307831B54DEECF03EC4BCA45,
@@ -1310,10 +1181,7 @@
 		96852737EBF92CA675EC8713 = {
 			isa = PBXGroup;
 			children = (
-				3A3B8185815BB6FF153325AD,
-				B6D598D8AEA1FF5BC3D4BD92,
-				23784367939770DD260DB77C,
-				67DDA139F83D9E5F7486E101,
+				9DD315103D766E9160F7D378,
 				EC3CADD2B091D25512B978DD,
 			);
 			name = Products;
@@ -1332,39 +1200,15 @@
 			name = Source;
 			sourceTree = "<group>";
 		};
-		D2C734A524BCF54A1FE9F97D = {
+		0EA5BB1147013C32BD830EC1 = {
 			isa = PBXTargetDependency;
-			target = 5DB1B5D6255634A2D2FB0F7A;
-		};
-		C2632BC675BCE36746E774D7 = {
-			isa = PBXTargetDependency;
-			target = DBA76A5D1D2B7EFD64D3604A;
-		};
-		1AC4205FE57BCCB998AA5858 = {
-			isa = PBXTargetDependency;
-			target = 99C660B8584DBF3A5749C720;
-		};
-		B5BF0664BB6A654412DD95F9 = {
-			isa = PBXTargetDependency;
-			target = 8E92F6D6C8B059CB8D141158;
+			target = 5078851FD3C4F7F83B65297D;
 		};
 		1C6F48D9104386236BB43DA7 = {
 			isa = PBXTargetDependency;
 			target = 9161DA564927E23860862087;
 		};
-		12CF363CD25182FDA41CBCC6 = {
-			isa = PBXTargetDependency;
-			target = 9161DA564927E23860862087;
-		};
-		F1C57F1FDCB70E8894DB32DE = {
-			isa = PBXTargetDependency;
-			target = 9161DA564927E23860862087;
-		};
-		830AE709543FF88EC5D99441 = {
-			isa = PBXTargetDependency;
-			target = 9161DA564927E23860862087;
-		};
-		FD2775F26F2714EA8B1C8695 = {
+		193D750D39C37BACD55A803D = {
 			isa = PBXTargetDependency;
 			target = 9161DA564927E23860862087;
 		};
@@ -1384,7 +1228,7 @@
 			};
 			name = Release;
 		};
-		00B42E620907B62ECFC15B88 = {
+		6C73C28A77FFBF3D5B7E0E71 = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
@@ -1404,8 +1248,8 @@
 					"JUCER_XCODE_MAC_F6D2F4CF=1",
 					"JUCE_APP_VERSION=1.3.1",
 					"JUCE_APP_VERSION_HEX=0x10301",
-					"JucePlugin_Build_VST=0",
-					"JucePlugin_Build_VST3=1",
+					"JucePlugin_Build_VST=1",
+					"JucePlugin_Build_VST3=0",
 					"JucePlugin_Build_AU=0",
 					"JucePlugin_Build_AUv3=0",
 					"JucePlugin_Build_RTAS=0",
@@ -1417,25 +1261,21 @@
 				GENERATE_PKGINFO_FILE = YES;
 				HEADER_SEARCH_PATHS = (
 					"$(HOME)/JUCE/modules/juce_audio_processors/format_types/VST3_SDK",
+					"$(HOME)/SDKs/VST_SDK/VST2_SDK",
 					"../../JuceLibraryCode",
-					"$(HOME)/SDKs/AAX",
-					"$(HOME)/SDKs/AAX/Interfaces",
-					"$(HOME)/SDKs/AAX/Interfaces/ACF",
 					"$(HOME)/JUCE/modules",
 					"$(HOME)/JUCE/modules/juce_audio_plugin_client",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = Info-VST3.plist;
+				INFOPLIST_FILE = Info-VST.plist;
 				INFOPLIST_PREPROCESS = NO;
-				INSTALL_PATH = "$(HOME)/Library/Audio/Plug-Ins/VST3/";
+				INSTALL_PATH = "$(HOME)/Library/Audio/Plug-Ins/VST/";
 				LIBRARY_STYLE = Bundle;
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				MTL_HEADER_SEARCH_PATHS = (
 					"$(HOME)/JUCE/modules/juce_audio_processors/format_types/VST3_SDK",
+					"$(HOME)/SDKs/VST_SDK/VST2_SDK",
 					"../../JuceLibraryCode",
-					"$(HOME)/SDKs/AAX",
-					"$(HOME)/SDKs/AAX/Interfaces",
-					"$(HOME)/SDKs/AAX/Interfaces/ACF",
 					"$(HOME)/JUCE/modules",
 					"$(HOME)/JUCE/modules/juce_audio_plugin_client",
 				);
@@ -1444,11 +1284,11 @@
 				PRODUCT_NAME = "SwankyAmp";
 				USE_HEADERMAP = NO;
 				VALID_ARCHS = "i386 x86_64 arm64 arm64e";
-				WRAPPER_EXTENSION = vst3;
+				WRAPPER_EXTENSION = vst;
 			};
 			name = Debug;
 		};
-		02A4CD4A6DBB1664A5372C18 = {
+		4E81B1F9E9364756D960C5C7 = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
@@ -1468,8 +1308,8 @@
 					"JUCER_XCODE_MAC_F6D2F4CF=1",
 					"JUCE_APP_VERSION=1.3.1",
 					"JUCE_APP_VERSION_HEX=0x10301",
-					"JucePlugin_Build_VST=0",
-					"JucePlugin_Build_VST3=1",
+					"JucePlugin_Build_VST=1",
+					"JucePlugin_Build_VST3=0",
 					"JucePlugin_Build_AU=0",
 					"JucePlugin_Build_AUv3=0",
 					"JucePlugin_Build_RTAS=0",
@@ -1481,26 +1321,22 @@
 				GENERATE_PKGINFO_FILE = YES;
 				HEADER_SEARCH_PATHS = (
 					"$(HOME)/JUCE/modules/juce_audio_processors/format_types/VST3_SDK",
+					"$(HOME)/SDKs/VST_SDK/VST2_SDK",
 					"../../JuceLibraryCode",
-					"$(HOME)/SDKs/AAX",
-					"$(HOME)/SDKs/AAX/Interfaces",
-					"$(HOME)/SDKs/AAX/Interfaces/ACF",
 					"$(HOME)/JUCE/modules",
 					"$(HOME)/JUCE/modules/juce_audio_plugin_client",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = Info-VST3.plist;
+				INFOPLIST_FILE = Info-VST.plist;
 				INFOPLIST_PREPROCESS = NO;
-				INSTALL_PATH = "$(HOME)/Library/Audio/Plug-Ins/VST3/";
+				INSTALL_PATH = "$(HOME)/Library/Audio/Plug-Ins/VST/";
 				LIBRARY_STYLE = Bundle;
 				LLVM_LTO = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				MTL_HEADER_SEARCH_PATHS = (
 					"$(HOME)/JUCE/modules/juce_audio_processors/format_types/VST3_SDK",
+					"$(HOME)/SDKs/VST_SDK/VST2_SDK",
 					"../../JuceLibraryCode",
-					"$(HOME)/SDKs/AAX",
-					"$(HOME)/SDKs/AAX/Interfaces",
-					"$(HOME)/SDKs/AAX/Interfaces/ACF",
 					"$(HOME)/JUCE/modules",
 					"$(HOME)/JUCE/modules/juce_audio_plugin_client",
 				);
@@ -1509,392 +1345,7 @@
 				PRODUCT_NAME = "SwankyAmp";
 				USE_HEADERMAP = NO;
 				VALID_ARCHS = "i386 x86_64 arm64 arm64e";
-				WRAPPER_EXTENSION = vst3;
-			};
-			name = Release;
-		};
-		1EF19233C69DD340D4D8AAD4 = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_LINK_OBJC_RUNTIME = NO;
-				CODE_SIGN_IDENTITY = "";
-				COMBINE_HIDPI_IMAGES = YES;
-				CONFIGURATION_BUILD_DIR = "$(PROJECT_DIR)/build/$(CONFIGURATION)";
-				COPY_PHASE_STRIP = NO;
-				DEPLOYMENT_LOCATION = YES;
-				DSTROOT = /;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"_DEBUG=1",
-					"DEBUG=1",
-					"JUCER_XCODE_MAC_F6D2F4CF=1",
-					"JUCE_APP_VERSION=1.3.1",
-					"JUCE_APP_VERSION_HEX=0x10301",
-					"JucePlugin_Build_VST=0",
-					"JucePlugin_Build_VST3=0",
-					"JucePlugin_Build_AU=0",
-					"JucePlugin_Build_AUv3=0",
-					"JucePlugin_Build_RTAS=0",
-					"JucePlugin_Build_AAX=1",
-					"JucePlugin_Build_Standalone=0",
-					"JucePlugin_Build_Unity=0",
-				);
-				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
-				GENERATE_PKGINFO_FILE = YES;
-				HEADER_SEARCH_PATHS = (
-					"$(HOME)/JUCE/modules/juce_audio_processors/format_types/VST3_SDK",
-					"../../JuceLibraryCode",
-					"$(HOME)/SDKs/AAX",
-					"$(HOME)/SDKs/AAX/Interfaces",
-					"$(HOME)/SDKs/AAX/Interfaces/ACF",
-					"$(HOME)/JUCE/modules",
-					"$(HOME)/JUCE/modules/juce_audio_plugin_client",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = Info-AAX.plist;
-				INFOPLIST_PREPROCESS = NO;
-				INSTALL_PATH = "/Library/Application Support/Avid/Audio/Plug-Ins/";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(HOME)/SDKs/AAX/Libs/Debug\"",
-				);
-				LIBRARY_STYLE = Bundle;
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
-				MTL_HEADER_SEARCH_PATHS = (
-					"$(HOME)/JUCE/modules/juce_audio_processors/format_types/VST3_SDK",
-					"../../JuceLibraryCode",
-					"$(HOME)/SDKs/AAX",
-					"$(HOME)/SDKs/AAX/Interfaces",
-					"$(HOME)/SDKs/AAX/Interfaces/ACF",
-					"$(HOME)/JUCE/modules",
-					"$(HOME)/JUCE/modules/juce_audio_plugin_client",
-				);
-				OTHER_LDFLAGS = "-bundle -lAAXLibrary_libcpp -lSwankyAmp";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ResonantDSP.SwankyAmp;
-				PRODUCT_NAME = "SwankyAmp";
-				USE_HEADERMAP = NO;
-				VALID_ARCHS = "i386 x86_64 arm64 arm64e";
-				WRAPPER_EXTENSION = aaxplugin;
-			};
-			name = Debug;
-		};
-		FC1C36FFE8ADEFF957AE329A = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_LINK_OBJC_RUNTIME = NO;
-				CODE_SIGN_IDENTITY = "";
-				COMBINE_HIDPI_IMAGES = YES;
-				CONFIGURATION_BUILD_DIR = "$(PROJECT_DIR)/build/$(CONFIGURATION)";
-				DEAD_CODE_STRIPPING = YES;
-				DEPLOYMENT_LOCATION = YES;
-				DSTROOT = /;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
-				GCC_OPTIMIZATION_LEVEL = 3;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"_NDEBUG=1",
-					"NDEBUG=1",
-					"JUCER_XCODE_MAC_F6D2F4CF=1",
-					"JUCE_APP_VERSION=1.3.1",
-					"JUCE_APP_VERSION_HEX=0x10301",
-					"JucePlugin_Build_VST=0",
-					"JucePlugin_Build_VST3=0",
-					"JucePlugin_Build_AU=0",
-					"JucePlugin_Build_AUv3=0",
-					"JucePlugin_Build_RTAS=0",
-					"JucePlugin_Build_AAX=1",
-					"JucePlugin_Build_Standalone=0",
-					"JucePlugin_Build_Unity=0",
-				);
-				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
-				GENERATE_PKGINFO_FILE = YES;
-				HEADER_SEARCH_PATHS = (
-					"$(HOME)/JUCE/modules/juce_audio_processors/format_types/VST3_SDK",
-					"../../JuceLibraryCode",
-					"$(HOME)/SDKs/AAX",
-					"$(HOME)/SDKs/AAX/Interfaces",
-					"$(HOME)/SDKs/AAX/Interfaces/ACF",
-					"$(HOME)/JUCE/modules",
-					"$(HOME)/JUCE/modules/juce_audio_plugin_client",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = Info-AAX.plist;
-				INFOPLIST_PREPROCESS = NO;
-				INSTALL_PATH = "/Library/Application Support/Avid/Audio/Plug-Ins/";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(HOME)/SDKs/AAX/Libs/Release\"",
-				);
-				LIBRARY_STYLE = Bundle;
-				LLVM_LTO = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
-				MTL_HEADER_SEARCH_PATHS = (
-					"$(HOME)/JUCE/modules/juce_audio_processors/format_types/VST3_SDK",
-					"../../JuceLibraryCode",
-					"$(HOME)/SDKs/AAX",
-					"$(HOME)/SDKs/AAX/Interfaces",
-					"$(HOME)/SDKs/AAX/Interfaces/ACF",
-					"$(HOME)/JUCE/modules",
-					"$(HOME)/JUCE/modules/juce_audio_plugin_client",
-				);
-				OTHER_LDFLAGS = "-bundle -lAAXLibrary_libcpp -lSwankyAmp";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ResonantDSP.SwankyAmp;
-				PRODUCT_NAME = "SwankyAmp";
-				USE_HEADERMAP = NO;
-				VALID_ARCHS = "i386 x86_64 arm64 arm64e";
-				WRAPPER_EXTENSION = aaxplugin;
-			};
-			name = Release;
-		};
-		F2E4CC04A3126F5198A96121 = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_LINK_OBJC_RUNTIME = NO;
-				CODE_SIGN_IDENTITY = "";
-				COMBINE_HIDPI_IMAGES = YES;
-				CONFIGURATION_BUILD_DIR = "$(PROJECT_DIR)/build/$(CONFIGURATION)";
-				COPY_PHASE_STRIP = NO;
-				DEPLOYMENT_LOCATION = YES;
-				DSTROOT = /;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"_DEBUG=1",
-					"DEBUG=1",
-					"JUCER_XCODE_MAC_F6D2F4CF=1",
-					"JUCE_APP_VERSION=1.3.1",
-					"JUCE_APP_VERSION_HEX=0x10301",
-					"JucePlugin_Build_VST=0",
-					"JucePlugin_Build_VST3=0",
-					"JucePlugin_Build_AU=1",
-					"JucePlugin_Build_AUv3=0",
-					"JucePlugin_Build_RTAS=0",
-					"JucePlugin_Build_AAX=0",
-					"JucePlugin_Build_Standalone=0",
-					"JucePlugin_Build_Unity=0",
-				);
-				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
-				GENERATE_PKGINFO_FILE = YES;
-				HEADER_SEARCH_PATHS = (
-					"$(HOME)/JUCE/modules/juce_audio_processors/format_types/VST3_SDK",
-					"../../JuceLibraryCode",
-					"$(HOME)/SDKs/AAX",
-					"$(HOME)/SDKs/AAX/Interfaces",
-					"$(HOME)/SDKs/AAX/Interfaces/ACF",
-					"$(HOME)/JUCE/modules",
-					"$(HOME)/JUCE/modules/juce_audio_plugin_client",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = Info-AU.plist;
-				INFOPLIST_PREPROCESS = NO;
-				INSTALL_PATH = "$(HOME)/Library/Audio/Plug-Ins/Components/";
-				LIBRARY_STYLE = Bundle;
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
-				MTL_HEADER_SEARCH_PATHS = (
-					"$(HOME)/JUCE/modules/juce_audio_processors/format_types/VST3_SDK",
-					"../../JuceLibraryCode",
-					"$(HOME)/SDKs/AAX",
-					"$(HOME)/SDKs/AAX/Interfaces",
-					"$(HOME)/SDKs/AAX/Interfaces/ACF",
-					"$(HOME)/JUCE/modules",
-					"$(HOME)/JUCE/modules/juce_audio_plugin_client",
-				);
-				OTHER_LDFLAGS = "-bundle -lSwankyAmp";
-				OTHER_REZFLAGS = "-d ppc_$ppc -d i386_$i386 -d ppc64_$ppc64 -d x86_64_$x86_64 -I /System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Versions/A/Headers -I \"$(DEVELOPER_DIR)/Extras/CoreAudio/AudioUnits/AUPublic/AUBase\" -I \"$(DEVELOPER_DIR)/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/AudioUnit.framework/Headers\"";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ResonantDSP.SwankyAmp;
-				PRODUCT_NAME = "SwankyAmp";
-				USE_HEADERMAP = NO;
-				VALID_ARCHS = "i386 x86_64 arm64 arm64e";
-				WRAPPER_EXTENSION = component;
-			};
-			name = Debug;
-		};
-		B1C2B853A2139E4B12024DAF = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_LINK_OBJC_RUNTIME = NO;
-				CODE_SIGN_IDENTITY = "";
-				COMBINE_HIDPI_IMAGES = YES;
-				CONFIGURATION_BUILD_DIR = "$(PROJECT_DIR)/build/$(CONFIGURATION)";
-				DEAD_CODE_STRIPPING = YES;
-				DEPLOYMENT_LOCATION = YES;
-				DSTROOT = /;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
-				GCC_OPTIMIZATION_LEVEL = 3;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"_NDEBUG=1",
-					"NDEBUG=1",
-					"JUCER_XCODE_MAC_F6D2F4CF=1",
-					"JUCE_APP_VERSION=1.3.1",
-					"JUCE_APP_VERSION_HEX=0x10301",
-					"JucePlugin_Build_VST=0",
-					"JucePlugin_Build_VST3=0",
-					"JucePlugin_Build_AU=1",
-					"JucePlugin_Build_AUv3=0",
-					"JucePlugin_Build_RTAS=0",
-					"JucePlugin_Build_AAX=0",
-					"JucePlugin_Build_Standalone=0",
-					"JucePlugin_Build_Unity=0",
-				);
-				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
-				GENERATE_PKGINFO_FILE = YES;
-				HEADER_SEARCH_PATHS = (
-					"$(HOME)/JUCE/modules/juce_audio_processors/format_types/VST3_SDK",
-					"../../JuceLibraryCode",
-					"$(HOME)/SDKs/AAX",
-					"$(HOME)/SDKs/AAX/Interfaces",
-					"$(HOME)/SDKs/AAX/Interfaces/ACF",
-					"$(HOME)/JUCE/modules",
-					"$(HOME)/JUCE/modules/juce_audio_plugin_client",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = Info-AU.plist;
-				INFOPLIST_PREPROCESS = NO;
-				INSTALL_PATH = "$(HOME)/Library/Audio/Plug-Ins/Components/";
-				LIBRARY_STYLE = Bundle;
-				LLVM_LTO = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
-				MTL_HEADER_SEARCH_PATHS = (
-					"$(HOME)/JUCE/modules/juce_audio_processors/format_types/VST3_SDK",
-					"../../JuceLibraryCode",
-					"$(HOME)/SDKs/AAX",
-					"$(HOME)/SDKs/AAX/Interfaces",
-					"$(HOME)/SDKs/AAX/Interfaces/ACF",
-					"$(HOME)/JUCE/modules",
-					"$(HOME)/JUCE/modules/juce_audio_plugin_client",
-				);
-				OTHER_LDFLAGS = "-bundle -lSwankyAmp";
-				OTHER_REZFLAGS = "-d ppc_$ppc -d i386_$i386 -d ppc64_$ppc64 -d x86_64_$x86_64 -I /System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Versions/A/Headers -I \"$(DEVELOPER_DIR)/Extras/CoreAudio/AudioUnits/AUPublic/AUBase\" -I \"$(DEVELOPER_DIR)/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/AudioUnit.framework/Headers\"";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ResonantDSP.SwankyAmp;
-				PRODUCT_NAME = "SwankyAmp";
-				USE_HEADERMAP = NO;
-				VALID_ARCHS = "i386 x86_64 arm64 arm64e";
-				WRAPPER_EXTENSION = component;
-			};
-			name = Release;
-		};
-		C7B1958FBB5E66CA6ECC732E = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_LINK_OBJC_RUNTIME = NO;
-				CODE_SIGN_IDENTITY = "";
-				COMBINE_HIDPI_IMAGES = YES;
-				CONFIGURATION_BUILD_DIR = "$(PROJECT_DIR)/build/$(CONFIGURATION)";
-				COPY_PHASE_STRIP = NO;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"_DEBUG=1",
-					"DEBUG=1",
-					"JUCER_XCODE_MAC_F6D2F4CF=1",
-					"JUCE_APP_VERSION=1.3.1",
-					"JUCE_APP_VERSION_HEX=0x10301",
-					"JucePlugin_Build_VST=0",
-					"JucePlugin_Build_VST3=0",
-					"JucePlugin_Build_AU=0",
-					"JucePlugin_Build_AUv3=0",
-					"JucePlugin_Build_RTAS=0",
-					"JucePlugin_Build_AAX=0",
-					"JucePlugin_Build_Standalone=1",
-					"JucePlugin_Build_Unity=0",
-				);
-				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
-				HEADER_SEARCH_PATHS = (
-					"$(HOME)/JUCE/modules/juce_audio_processors/format_types/VST3_SDK",
-					"../../JuceLibraryCode",
-					"$(HOME)/SDKs/AAX",
-					"$(HOME)/SDKs/AAX/Interfaces",
-					"$(HOME)/SDKs/AAX/Interfaces/ACF",
-					"$(HOME)/JUCE/modules",
-					"$(HOME)/JUCE/modules/juce_audio_plugin_client",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = Info-Standalone_Plugin.plist;
-				INFOPLIST_PREPROCESS = NO;
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
-				MTL_HEADER_SEARCH_PATHS = (
-					"$(HOME)/JUCE/modules/juce_audio_processors/format_types/VST3_SDK",
-					"../../JuceLibraryCode",
-					"$(HOME)/SDKs/AAX",
-					"$(HOME)/SDKs/AAX/Interfaces",
-					"$(HOME)/SDKs/AAX/Interfaces/ACF",
-					"$(HOME)/JUCE/modules",
-					"$(HOME)/JUCE/modules/juce_audio_plugin_client",
-				);
-				OTHER_LDFLAGS = "-lSwankyAmp";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ResonantDSP.SwankyAmp;
-				PRODUCT_NAME = "SwankyAmp";
-				USE_HEADERMAP = NO;
-				VALID_ARCHS = "i386 x86_64 arm64 arm64e";
-			};
-			name = Debug;
-		};
-		734F4430901EA849264F52CD = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_LINK_OBJC_RUNTIME = NO;
-				CODE_SIGN_IDENTITY = "";
-				COMBINE_HIDPI_IMAGES = YES;
-				CONFIGURATION_BUILD_DIR = "$(PROJECT_DIR)/build/$(CONFIGURATION)";
-				DEAD_CODE_STRIPPING = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
-				GCC_OPTIMIZATION_LEVEL = 3;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"_NDEBUG=1",
-					"NDEBUG=1",
-					"JUCER_XCODE_MAC_F6D2F4CF=1",
-					"JUCE_APP_VERSION=1.3.1",
-					"JUCE_APP_VERSION_HEX=0x10301",
-					"JucePlugin_Build_VST=0",
-					"JucePlugin_Build_VST3=0",
-					"JucePlugin_Build_AU=0",
-					"JucePlugin_Build_AUv3=0",
-					"JucePlugin_Build_RTAS=0",
-					"JucePlugin_Build_AAX=0",
-					"JucePlugin_Build_Standalone=1",
-					"JucePlugin_Build_Unity=0",
-				);
-				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
-				HEADER_SEARCH_PATHS = (
-					"$(HOME)/JUCE/modules/juce_audio_processors/format_types/VST3_SDK",
-					"../../JuceLibraryCode",
-					"$(HOME)/SDKs/AAX",
-					"$(HOME)/SDKs/AAX/Interfaces",
-					"$(HOME)/SDKs/AAX/Interfaces/ACF",
-					"$(HOME)/JUCE/modules",
-					"$(HOME)/JUCE/modules/juce_audio_plugin_client",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = Info-Standalone_Plugin.plist;
-				INFOPLIST_PREPROCESS = NO;
-				LLVM_LTO = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
-				MTL_HEADER_SEARCH_PATHS = (
-					"$(HOME)/JUCE/modules/juce_audio_processors/format_types/VST3_SDK",
-					"../../JuceLibraryCode",
-					"$(HOME)/SDKs/AAX",
-					"$(HOME)/SDKs/AAX/Interfaces",
-					"$(HOME)/SDKs/AAX/Interfaces/ACF",
-					"$(HOME)/JUCE/modules",
-					"$(HOME)/JUCE/modules/juce_audio_plugin_client",
-				);
-				OTHER_LDFLAGS = "-lSwankyAmp";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ResonantDSP.SwankyAmp;
-				PRODUCT_NAME = "SwankyAmp";
-				USE_HEADERMAP = NO;
-				VALID_ARCHS = "i386 x86_64 arm64 arm64e";
+				WRAPPER_EXTENSION = vst;
 			};
 			name = Release;
 		};
@@ -1916,23 +1367,21 @@
 					"JUCER_XCODE_MAC_F6D2F4CF=1",
 					"JUCE_APP_VERSION=1.3.1",
 					"JUCE_APP_VERSION_HEX=0x10301",
-					"JucePlugin_Build_VST=0",
-					"JucePlugin_Build_VST3=1",
-					"JucePlugin_Build_AU=1",
+					"JucePlugin_Build_VST=1",
+					"JucePlugin_Build_VST3=0",
+					"JucePlugin_Build_AU=0",
 					"JucePlugin_Build_AUv3=0",
 					"JucePlugin_Build_RTAS=0",
-					"JucePlugin_Build_AAX=1",
-					"JucePlugin_Build_Standalone=1",
+					"JucePlugin_Build_AAX=0",
+					"JucePlugin_Build_Standalone=0",
 					"JucePlugin_Build_Unity=0",
 					"JUCE_SHARED_CODE=1",
 				);
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				HEADER_SEARCH_PATHS = (
 					"$(HOME)/JUCE/modules/juce_audio_processors/format_types/VST3_SDK",
+					"$(HOME)/SDKs/VST_SDK/VST2_SDK",
 					"../../JuceLibraryCode",
-					"$(HOME)/SDKs/AAX",
-					"$(HOME)/SDKs/AAX/Interfaces",
-					"$(HOME)/SDKs/AAX/Interfaces/ACF",
 					"$(HOME)/JUCE/modules",
 					"$(HOME)/JUCE/modules/juce_audio_plugin_client",
 					"$(inherited)",
@@ -1941,10 +1390,8 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				MTL_HEADER_SEARCH_PATHS = (
 					"$(HOME)/JUCE/modules/juce_audio_processors/format_types/VST3_SDK",
+					"$(HOME)/SDKs/VST_SDK/VST2_SDK",
 					"../../JuceLibraryCode",
-					"$(HOME)/SDKs/AAX",
-					"$(HOME)/SDKs/AAX/Interfaces",
-					"$(HOME)/SDKs/AAX/Interfaces/ACF",
 					"$(HOME)/JUCE/modules",
 					"$(HOME)/JUCE/modules/juce_audio_plugin_client",
 				);
@@ -1974,23 +1421,21 @@
 					"JUCER_XCODE_MAC_F6D2F4CF=1",
 					"JUCE_APP_VERSION=1.3.1",
 					"JUCE_APP_VERSION_HEX=0x10301",
-					"JucePlugin_Build_VST=0",
-					"JucePlugin_Build_VST3=1",
-					"JucePlugin_Build_AU=1",
+					"JucePlugin_Build_VST=1",
+					"JucePlugin_Build_VST3=0",
+					"JucePlugin_Build_AU=0",
 					"JucePlugin_Build_AUv3=0",
 					"JucePlugin_Build_RTAS=0",
-					"JucePlugin_Build_AAX=1",
-					"JucePlugin_Build_Standalone=1",
+					"JucePlugin_Build_AAX=0",
+					"JucePlugin_Build_Standalone=0",
 					"JucePlugin_Build_Unity=0",
 					"JUCE_SHARED_CODE=1",
 				);
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				HEADER_SEARCH_PATHS = (
 					"$(HOME)/JUCE/modules/juce_audio_processors/format_types/VST3_SDK",
+					"$(HOME)/SDKs/VST_SDK/VST2_SDK",
 					"../../JuceLibraryCode",
-					"$(HOME)/SDKs/AAX",
-					"$(HOME)/SDKs/AAX/Interfaces",
-					"$(HOME)/SDKs/AAX/Interfaces/ACF",
 					"$(HOME)/JUCE/modules",
 					"$(HOME)/JUCE/modules/juce_audio_plugin_client",
 					"$(inherited)",
@@ -2000,10 +1445,8 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				MTL_HEADER_SEARCH_PATHS = (
 					"$(HOME)/JUCE/modules/juce_audio_processors/format_types/VST3_SDK",
+					"$(HOME)/SDKs/VST_SDK/VST2_SDK",
 					"../../JuceLibraryCode",
-					"$(HOME)/SDKs/AAX",
-					"$(HOME)/SDKs/AAX/Interfaces",
-					"$(HOME)/SDKs/AAX/Interfaces/ACF",
 					"$(HOME)/JUCE/modules",
 					"$(HOME)/JUCE/modules/juce_audio_plugin_client",
 				);
@@ -2136,25 +1579,22 @@
 			buildPhases = ( );
 			buildRules = ( );
 			dependencies = (
-				D2C734A524BCF54A1FE9F97D,
-				C2632BC675BCE36746E774D7,
-				1AC4205FE57BCCB998AA5858,
-				B5BF0664BB6A654412DD95F9,
+				0EA5BB1147013C32BD830EC1,
 				1C6F48D9104386236BB43DA7,
 			);
 			name = "SwankyAmp - All";
 			productName = SwankyAmp;
 		};
-		53164C4619DB4BD59D4E66BD = {
+		0F3CE8CC50B6C16D54C49898 = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				00B42E620907B62ECFC15B88,
-				02A4CD4A6DBB1664A5372C18,
+				6C73C28A77FFBF3D5B7E0E71,
+				4E81B1F9E9364756D960C5C7,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		DF9D2DA7AC75C02A5D8C7576 = {
+		FA29D43FCD25DBF35E853603 = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -2162,15 +1602,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		49135C566194E512F188F879 = {
+		BFD9ADD15CC119399D09A9B4 = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				637CC3BA6074BBDD7EEFE993,
+				9D8760572656445D2CEE297A,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2935E78E35D1C301881437F0 = {
+		60044D43576E4E5C973DBBFB = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -2189,216 +1629,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5DB1B5D6255634A2D2FB0F7A = {
+		5078851FD3C4F7F83B65297D = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 53164C4619DB4BD59D4E66BD;
+			buildConfigurationList = 0F3CE8CC50B6C16D54C49898;
 			buildPhases = (
-				DF9D2DA7AC75C02A5D8C7576,
-				49135C566194E512F188F879,
-				2935E78E35D1C301881437F0,
+				FA29D43FCD25DBF35E853603,
+				BFD9ADD15CC119399D09A9B4,
+				60044D43576E4E5C973DBBFB,
 			);
 			buildRules = ( );
 			dependencies = (
-				12CF363CD25182FDA41CBCC6,
+				193D750D39C37BACD55A803D,
 			);
-			name = "SwankyAmp - VST3";
+			name = "SwankyAmp - VST";
 			productName = SwankyAmp;
-			productReference = 3A3B8185815BB6FF153325AD;
+			productReference = 9DD315103D766E9160F7D378;
 			productType = "com.apple.product-type.bundle";
-		};
-		FCFC140C552EC48C95F9F066 = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1EF19233C69DD340D4D8AAD4,
-				FC1C36FFE8ADEFF957AE329A,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Debug;
-		};
-		4ACAF854A7F3709ACFDDBB09 = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				26BFED7798F2381FFC2D5F2D,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C77CD9B0D453314A24C2094D = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2ACF1539E0008C60788FA730,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2BDD60D8A2B8FC509404C9FD = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E7B82EC348B0009B8B557E60,
-				925539B056E31718204BA130,
-				B78BABBE5D05D524E03E3957,
-				75A7C5C2F585D6E7E079768B,
-				461C720F6753C879C0175ECD,
-				8BF250F8B0037C54C43ED099,
-				1B51347C71547DF0E73310D0,
-				ECFEAF0567E9AF44D5FCBACE,
-				7ABEBB85C62EE00FCF18E3AE,
-				57F14A09B37BDE53B789B969,
-				B887CC1195F9A002609A427C,
-				FE833B7EFC1C84F6C6AE0045,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DBA76A5D1D2B7EFD64D3604A = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = FCFC140C552EC48C95F9F066;
-			buildPhases = (
-				4ACAF854A7F3709ACFDDBB09,
-				C77CD9B0D453314A24C2094D,
-				2BDD60D8A2B8FC509404C9FD,
-			);
-			buildRules = ( );
-			dependencies = (
-				F1C57F1FDCB70E8894DB32DE,
-			);
-			name = "SwankyAmp - AAX";
-			productName = SwankyAmp;
-			productReference = B6D598D8AEA1FF5BC3D4BD92;
-			productType = "com.apple.product-type.bundle";
-		};
-		DA593F8559A3D748BD823B0D = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F2E4CC04A3126F5198A96121,
-				B1C2B853A2139E4B12024DAF,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Debug;
-		};
-		851835BAB9EEDA3DDF0D4483 = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				26BFED7798F2381FFC2D5F2D,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D4018F93B7B04D885280D334 = {
-			isa = PBXRezBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7DBBB2ADC19802A2A29603D6,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6F8724E058644A029B9C919F = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1683F49B29EC4923BA50CA3C,
-				FA85DAF2FBC47A23AB0ECA22,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2C0DBBF393F4B28B81613F79 = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				392B13E5E2340361D58DA4D1,
-				E7B82EC348B0009B8B557E60,
-				925539B056E31718204BA130,
-				B78BABBE5D05D524E03E3957,
-				75A7C5C2F585D6E7E079768B,
-				461C720F6753C879C0175ECD,
-				8BF250F8B0037C54C43ED099,
-				1B51347C71547DF0E73310D0,
-				ECFEAF0567E9AF44D5FCBACE,
-				7ABEBB85C62EE00FCF18E3AE,
-				57F14A09B37BDE53B789B969,
-				B887CC1195F9A002609A427C,
-				FE833B7EFC1C84F6C6AE0045,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		99C660B8584DBF3A5749C720 = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = DA593F8559A3D748BD823B0D;
-			buildPhases = (
-				851835BAB9EEDA3DDF0D4483,
-				D4018F93B7B04D885280D334,
-				6F8724E058644A029B9C919F,
-				2C0DBBF393F4B28B81613F79,
-			);
-			buildRules = ( );
-			dependencies = (
-				830AE709543FF88EC5D99441,
-			);
-			name = "SwankyAmp - AU";
-			productName = SwankyAmp;
-			productReference = 23784367939770DD260DB77C;
-			productType = "com.apple.product-type.bundle";
-		};
-		CA5471FE860EF1E48B574C20 = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C7B1958FBB5E66CA6ECC732E,
-				734F4430901EA849264F52CD,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Debug;
-		};
-		87C8E5AF70042E479E648E55 = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				26BFED7798F2381FFC2D5F2D,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8939A832A71CC49018A24A21 = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2ACEF8EA7C54CA5885EC0F3B,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		553BD36AA9CD6123B1B81334 = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E7B82EC348B0009B8B557E60,
-				925539B056E31718204BA130,
-				B78BABBE5D05D524E03E3957,
-				75A7C5C2F585D6E7E079768B,
-				461C720F6753C879C0175ECD,
-				8BF250F8B0037C54C43ED099,
-				1B51347C71547DF0E73310D0,
-				ECFEAF0567E9AF44D5FCBACE,
-				7ABEBB85C62EE00FCF18E3AE,
-				57F14A09B37BDE53B789B969,
-				B887CC1195F9A002609A427C,
-				FE833B7EFC1C84F6C6AE0045,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8E92F6D6C8B059CB8D141158 = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = CA5471FE860EF1E48B574C20;
-			buildPhases = (
-				87C8E5AF70042E479E648E55,
-				8939A832A71CC49018A24A21,
-				553BD36AA9CD6123B1B81334,
-			);
-			buildRules = ( );
-			dependencies = (
-				FD2775F26F2714EA8B1C8695,
-			);
-			name = "SwankyAmp - Standalone Plugin";
-			productName = SwankyAmp;
-			productReference = 67DDA139F83D9E5F7486E101;
-			productType = "com.apple.product-type.application";
 		};
 		EE9B1FBD2FACE3FF1123941C = {
 			isa = XCConfigurationList;
@@ -2467,13 +1713,13 @@
 		D5AE9E2F0A06F654692E525F = {
 			isa = PBXProject;
 			buildConfigurationList = 1E9CE4387DD1BEE967E7904B;
-			attributes = { LastUpgradeCheck = 1200; ORGANIZATIONNAME = "Resonant DSP"; TargetAttributes = { AC9A13CEB452459D234E08D1 = { SystemCapabilities = {com.apple.ApplicationGroups.iOS = { enabled = 0; }; com.apple.InAppPurchase = { enabled = 0; }; com.apple.InterAppAudio = { enabled = 0; }; com.apple.Push = { enabled = 0; }; com.apple.Sandbox = { enabled = 0; }; com.apple.HardenedRuntime = { enabled = 0; }; }; };5DB1B5D6255634A2D2FB0F7A = { SystemCapabilities = {com.apple.ApplicationGroups.iOS = { enabled = 0; }; com.apple.InAppPurchase = { enabled = 0; }; com.apple.InterAppAudio = { enabled = 0; }; com.apple.Push = { enabled = 0; }; com.apple.Sandbox = { enabled = 0; }; com.apple.HardenedRuntime = { enabled = 0; }; }; };DBA76A5D1D2B7EFD64D3604A = { SystemCapabilities = {com.apple.ApplicationGroups.iOS = { enabled = 0; }; com.apple.InAppPurchase = { enabled = 0; }; com.apple.InterAppAudio = { enabled = 0; }; com.apple.Push = { enabled = 0; }; com.apple.Sandbox = { enabled = 0; }; com.apple.HardenedRuntime = { enabled = 0; }; }; };99C660B8584DBF3A5749C720 = { SystemCapabilities = {com.apple.ApplicationGroups.iOS = { enabled = 0; }; com.apple.InAppPurchase = { enabled = 0; }; com.apple.InterAppAudio = { enabled = 0; }; com.apple.Push = { enabled = 0; }; com.apple.Sandbox = { enabled = 0; }; com.apple.HardenedRuntime = { enabled = 0; }; }; };8E92F6D6C8B059CB8D141158 = { SystemCapabilities = {com.apple.ApplicationGroups.iOS = { enabled = 0; }; com.apple.InAppPurchase = { enabled = 0; }; com.apple.InterAppAudio = { enabled = 0; }; com.apple.Push = { enabled = 0; }; com.apple.Sandbox = { enabled = 0; }; com.apple.HardenedRuntime = { enabled = 0; }; }; };9161DA564927E23860862087 = { SystemCapabilities = {com.apple.ApplicationGroups.iOS = { enabled = 0; }; com.apple.InAppPurchase = { enabled = 0; }; com.apple.InterAppAudio = { enabled = 0; }; com.apple.Push = { enabled = 0; }; com.apple.Sandbox = { enabled = 0; }; com.apple.HardenedRuntime = { enabled = 0; }; }; }; }; };
+			attributes = { LastUpgradeCheck = 1200; ORGANIZATIONNAME = "Resonant DSP"; TargetAttributes = { AC9A13CEB452459D234E08D1 = { SystemCapabilities = {com.apple.ApplicationGroups.iOS = { enabled = 0; }; com.apple.InAppPurchase = { enabled = 0; }; com.apple.InterAppAudio = { enabled = 0; }; com.apple.Push = { enabled = 0; }; com.apple.Sandbox = { enabled = 0; }; com.apple.HardenedRuntime = { enabled = 0; }; }; };5078851FD3C4F7F83B65297D = { SystemCapabilities = {com.apple.ApplicationGroups.iOS = { enabled = 0; }; com.apple.InAppPurchase = { enabled = 0; }; com.apple.InterAppAudio = { enabled = 0; }; com.apple.Push = { enabled = 0; }; com.apple.Sandbox = { enabled = 0; }; com.apple.HardenedRuntime = { enabled = 0; }; }; };9161DA564927E23860862087 = { SystemCapabilities = {com.apple.ApplicationGroups.iOS = { enabled = 0; }; com.apple.InAppPurchase = { enabled = 0; }; com.apple.InterAppAudio = { enabled = 0; }; com.apple.Push = { enabled = 0; }; com.apple.Sandbox = { enabled = 0; }; com.apple.HardenedRuntime = { enabled = 0; }; }; }; }; };
 			compatibilityVersion = "Xcode 3.2";
 			hasScannedForEncodings = 0;
 			mainGroup = 1F68211146C894DCE93DAA7E;
 			projectDirPath = "";
 			projectRoot = "";
-			targets = (AC9A13CEB452459D234E08D1, 5DB1B5D6255634A2D2FB0F7A, DBA76A5D1D2B7EFD64D3604A, 99C660B8584DBF3A5749C720, 8E92F6D6C8B059CB8D141158, 9161DA564927E23860862087);
+			targets = (AC9A13CEB452459D234E08D1, 5078851FD3C4F7F83B65297D, 9161DA564927E23860862087);
 			knownRegions = (en, Base);
 		};
 	};
