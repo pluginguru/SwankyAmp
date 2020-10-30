@@ -74,21 +74,21 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		346D8BFD2547A8F500CED37A /* PBXContainerItemProxy */ = {
+		341CBDE5254B9F2C00D835F0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D5AE9E2F0A06F654692E525F /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 9161DA564927E23860862087;
 			remoteInfo = "SwankyAmp - Shared Code";
 		};
-		346D8BFE2547A8F500CED37A /* PBXContainerItemProxy */ = {
+		341CBDE6254B9F2C00D835F0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D5AE9E2F0A06F654692E525F /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 5078851FD3C4F7F83B65297D;
 			remoteInfo = "SwankyAmp - VST";
 		};
-		346D8BFF2547A8F500CED37A /* PBXContainerItemProxy */ = {
+		341CBDE7254B9F2C00D835F0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D5AE9E2F0A06F654692E525F /* Project object */;
 			proxyType = 1;
@@ -478,7 +478,7 @@
 		D5AE9E2F0A06F654692E525F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1200;
+				LastUpgradeCheck = 1210;
 				ORGANIZATIONNAME = "Resonant DSP";
 				TargetAttributes = {
 					5078851FD3C4F7F83B65297D = {
@@ -636,17 +636,17 @@
 		0EA5BB1147013C32BD830EC1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 5078851FD3C4F7F83B65297D /* SwankyAmp - VST */;
-			targetProxy = 346D8BFE2547A8F500CED37A /* PBXContainerItemProxy */;
+			targetProxy = 341CBDE6254B9F2C00D835F0 /* PBXContainerItemProxy */;
 		};
 		193D750D39C37BACD55A803D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 9161DA564927E23860862087 /* SwankyAmp - Shared Code */;
-			targetProxy = 346D8BFD2547A8F500CED37A /* PBXContainerItemProxy */;
+			targetProxy = 341CBDE5254B9F2C00D835F0 /* PBXContainerItemProxy */;
 		};
 		1C6F48D9104386236BB43DA7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 9161DA564927E23860862087 /* SwankyAmp - Shared Code */;
-			targetProxy = 346D8BFF2547A8F500CED37A /* PBXContainerItemProxy */;
+			targetProxy = 341CBDE7254B9F2C00D835F0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -668,16 +668,16 @@
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "";
-				CODE_SIGN_INJECT_BASE_ENTITLEMENTS = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_TESTABILITY = NO;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = c11;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
 				GCC_MODEL_TUNING = G5;
@@ -719,6 +719,7 @@
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
