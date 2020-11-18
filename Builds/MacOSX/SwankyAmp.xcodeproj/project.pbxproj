@@ -74,21 +74,21 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		341CBDE5254B9F2C00D835F0 /* PBXContainerItemProxy */ = {
+		34C1685D255CAF9E00DF0C06 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D5AE9E2F0A06F654692E525F /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 9161DA564927E23860862087;
 			remoteInfo = "SwankyAmp - Shared Code";
 		};
-		341CBDE6254B9F2C00D835F0 /* PBXContainerItemProxy */ = {
+		34C1685E255CAF9E00DF0C06 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D5AE9E2F0A06F654692E525F /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 5078851FD3C4F7F83B65297D;
 			remoteInfo = "SwankyAmp - VST";
 		};
-		341CBDE7254B9F2C00D835F0 /* PBXContainerItemProxy */ = {
+		34C1685F255CAF9E00DF0C06 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D5AE9E2F0A06F654692E525F /* Project object */;
 			proxyType = 1;
@@ -114,6 +114,7 @@
 		15C957D3515403E6DEBFF802 /* Info-VST.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-VST.plist"; sourceTree = SOURCE_ROOT; };
 		173EB9DF86DEAEDD686B112C /* include_juce_audio_formats.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = include_juce_audio_formats.mm; path = ../../JuceLibraryCode/include_juce_audio_formats.mm; sourceTree = SOURCE_ROOT; };
 		18E52283BE4F6EDA64790994 /* CoreAudioKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudioKit.framework; path = System/Library/Frameworks/CoreAudioKit.framework; sourceTree = SDKROOT; };
+		1F1B9FB0BB1210239AB18DE4 /* Triode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Triode.h; path = ../../Source/dsp/Triode.h; sourceTree = SOURCE_ROOT; };
 		1FCB1AA449AE94A4D345108C /* ParameterGroup.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = ParameterGroup.cpp; path = ../../Source/Components/ParameterGroup.cpp; sourceTree = SOURCE_ROOT; };
 		23A1E6174D690AE53735BD1C /* BinaryData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BinaryData.h; path = ../../JuceLibraryCode/BinaryData.h; sourceTree = SOURCE_ROOT; };
 		2A1FBC7C746DA0CB5AA41018 /* juce_audio_plugin_client */ = {isa = PBXFileReference; lastKnownFileType = text; name = juce_audio_plugin_client; path = "~/JUCE/modules/juce_audio_plugin_client"; sourceTree = "<absolute>"; };
@@ -127,7 +128,6 @@
 		361876899BEE73EA3F290146 /* RSliderLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RSliderLabel.h; path = ../../Source/Components/RSliderLabel.h; sourceTree = SOURCE_ROOT; };
 		385221ADA0E00B5D8ADBF4BE /* ToneStackMFaust.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ToneStackMFaust.h; path = ../../Source/dsp/ToneStackMFaust.h; sourceTree = SOURCE_ROOT; };
 		3BB443F3D9FE041CA53857A1 /* PreAmpGroup.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PreAmpGroup.h; path = ../../Source/Components/PreAmpGroup.h; sourceTree = SOURCE_ROOT; };
-		3C7FA2BB55DC9826415CF3D4 /* TriodePlate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TriodePlate.h; path = ../../Source/dsp/TriodePlate.h; sourceTree = SOURCE_ROOT; };
 		4414DAC183F81C8A3F77E466 /* PowerAmpGroup.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PowerAmpGroup.h; path = ../../Source/Components/PowerAmpGroup.h; sourceTree = SOURCE_ROOT; };
 		46C95ABAC74139798C04941A /* PresetManager.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = PresetManager.cpp; path = ../../Source/PresetManager.cpp; sourceTree = SOURCE_ROOT; };
 		4D7759AE7485AB52572B330A /* CoreMIDI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMIDI.framework; path = System/Library/Frameworks/CoreMIDI.framework; sourceTree = SDKROOT; };
@@ -154,6 +154,7 @@
 		700A1146182081C685E35039 /* RSlider.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = RSlider.cpp; path = ../../Source/Components/RSlider.cpp; sourceTree = SOURCE_ROOT; };
 		702FEDF0321D48F4D38ACAAF /* include_juce_data_structures.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = include_juce_data_structures.mm; path = ../../JuceLibraryCode/include_juce_data_structures.mm; sourceTree = SOURCE_ROOT; };
 		74B0CDD3035DA2C995B01497 /* ToneStackGroup.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ToneStackGroup.h; path = ../../Source/Components/ToneStackGroup.h; sourceTree = SOURCE_ROOT; };
+		7612405782FFCF01908D67CA /* TriodeFaust.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TriodeFaust.h; path = ../../Source/dsp/TriodeFaust.h; sourceTree = SOURCE_ROOT; };
 		770B3ACDF988E53FB21014C9 /* PresetGroup.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = PresetGroup.cpp; path = ../../Source/Components/PresetGroup.cpp; sourceTree = SOURCE_ROOT; };
 		78BC8005FF8A8B16705B0647 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
 		7906EB419323495FEF6AFE48 /* PluginEditor.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = PluginEditor.cpp; path = ../../Source/PluginEditor.cpp; sourceTree = SOURCE_ROOT; };
@@ -164,7 +165,6 @@
 		7EFA85A55CD360432F27EA15 /* include_juce_opengl.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = include_juce_opengl.mm; path = ../../JuceLibraryCode/include_juce_opengl.mm; sourceTree = SOURCE_ROOT; };
 		87B906C60C2144E8501718E7 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		88F99602C80916997BDF8209 /* LevelMeter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = LevelMeter.h; path = ../../Source/Components/LevelMeter.h; sourceTree = SOURCE_ROOT; };
-		8C162E29A4D362E4D36FF395 /* TriodeGrid.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TriodeGrid.h; path = ../../Source/dsp/TriodeGrid.h; sourceTree = SOURCE_ROOT; };
 		8F406035EFC8B04531C8C9F4 /* PTSansNarrow-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file.ttf; name = "PTSansNarrow-Regular.ttf"; path = "../../Resources/PTSansNarrow/PTSansNarrow-Regular.ttf"; sourceTree = SOURCE_ROOT; };
 		92CF008F84F5D0992547ED01 /* TetrodeGridFaust.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TetrodeGridFaust.h; path = ../../Source/dsp/TetrodeGridFaust.h; sourceTree = SOURCE_ROOT; };
 		98F87EE13B869B766B411CA7 /* StagingGroup.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = StagingGroup.cpp; path = ../../Source/Components/StagingGroup.cpp; sourceTree = SOURCE_ROOT; };
@@ -178,8 +178,6 @@
 		A420FD2876331A972D5992DF /* ToneStackGroup.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = ToneStackGroup.cpp; path = ../../Source/Components/ToneStackGroup.cpp; sourceTree = SOURCE_ROOT; };
 		AD76CE282F92F0B99439D1BB /* BinaryData.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = BinaryData.cpp; path = ../../JuceLibraryCode/BinaryData.cpp; sourceTree = SOURCE_ROOT; };
 		B5BF6CA52E64227F86E5DA22 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		B5CD1517E746199C71F7AD93 /* TriodePlateFaust.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TriodePlateFaust.h; path = ../../Source/dsp/TriodePlateFaust.h; sourceTree = SOURCE_ROOT; };
-		B6693397E6A28B904EEB8290 /* TriodeGridFaust.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TriodeGridFaust.h; path = ../../Source/dsp/TriodeGridFaust.h; sourceTree = SOURCE_ROOT; };
 		B7F720F0A6051D989891B057 /* AmpGroup.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AmpGroup.h; path = ../../Source/Components/AmpGroup.h; sourceTree = SOURCE_ROOT; };
 		BA24E3517552EC73B03EDF90 /* TooltipsData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TooltipsData.h; path = ../../Source/TooltipsData.h; sourceTree = SOURCE_ROOT; };
 		BC9ED327B4E1CF94BE1B8812 /* juce_graphics */ = {isa = PBXFileReference; lastKnownFileType = text; name = juce_graphics; path = "~/JUCE/modules/juce_graphics"; sourceTree = "<absolute>"; };
@@ -343,10 +341,8 @@
 				08F63A57D0FD52F670B72A05 /* ToneStackFFaust.h */,
 				2E10367FDC8EB67CDA056A86 /* ToneStackM.h */,
 				385221ADA0E00B5D8ADBF4BE /* ToneStackMFaust.h */,
-				8C162E29A4D362E4D36FF395 /* TriodeGrid.h */,
-				B6693397E6A28B904EEB8290 /* TriodeGridFaust.h */,
-				3C7FA2BB55DC9826415CF3D4 /* TriodePlate.h */,
-				B5CD1517E746199C71F7AD93 /* TriodePlateFaust.h */,
+				1F1B9FB0BB1210239AB18DE4 /* Triode.h */,
+				7612405782FFCF01908D67CA /* TriodeFaust.h */,
 				4DC6BA8BB4C049A5834A43F4 /* UI.h */,
 			);
 			name = dsp;
@@ -636,17 +632,17 @@
 		0EA5BB1147013C32BD830EC1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 5078851FD3C4F7F83B65297D /* SwankyAmp - VST */;
-			targetProxy = 341CBDE6254B9F2C00D835F0 /* PBXContainerItemProxy */;
+			targetProxy = 34C1685E255CAF9E00DF0C06 /* PBXContainerItemProxy */;
 		};
 		193D750D39C37BACD55A803D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 9161DA564927E23860862087 /* SwankyAmp - Shared Code */;
-			targetProxy = 341CBDE5254B9F2C00D835F0 /* PBXContainerItemProxy */;
+			targetProxy = 34C1685D255CAF9E00DF0C06 /* PBXContainerItemProxy */;
 		};
 		1C6F48D9104386236BB43DA7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 9161DA564927E23860862087 /* SwankyAmp - Shared Code */;
-			targetProxy = 341CBDE7254B9F2C00D835F0 /* PBXContainerItemProxy */;
+			targetProxy = 34C1685F255CAF9E00DF0C06 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -694,7 +690,6 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				OTHER_CODE_SIGN_FLAGS = "--timestamp";
 				PRODUCT_NAME = SwankyAmp;
 				SDKROOT = macosx;
 				WARNING_CFLAGS = "-Wreorder";
@@ -726,7 +721,6 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "Developer ID Application: Dunne & Associates Technology Consulting, Inc (W5AEHZN66V)";
-				CODE_SIGN_INJECT_BASE_ENTITLEMENTS = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = NO;
@@ -745,7 +739,6 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				OTHER_CODE_SIGN_FLAGS = "--timestamp";
 				PRODUCT_NAME = SwankyAmp;
 				SDKROOT = macosx;
 				WARNING_CFLAGS = "-Wreorder";
@@ -761,6 +754,7 @@
 				CLANG_LINK_OBJC_RUNTIME = NO;
 				CODE_SIGN_ENTITLEMENTS = VST.entitlements;
 				CODE_SIGN_IDENTITY = "Developer ID Application: Dunne & Associates Technology Consulting, Inc (W5AEHZN66V)";
+				CODE_SIGN_INJECT_BASE_ENTITLEMENTS = NO;
 				COMBINE_HIDPI_IMAGES = YES;
 				CONFIGURATION_BUILD_DIR = "$(PROJECT_DIR)/build/$(CONFIGURATION)";
 				DEAD_CODE_STRIPPING = YES;
@@ -773,8 +767,8 @@
 					"_NDEBUG=1",
 					"NDEBUG=1",
 					"JUCER_XCODE_MAC_F6D2F4CF=1",
-					"JUCE_APP_VERSION=1.3.1",
-					"JUCE_APP_VERSION_HEX=0x10301",
+					"JUCE_APP_VERSION=1.4.0",
+					"JUCE_APP_VERSION_HEX=0x10400",
 					"JucePlugin_Build_VST=1",
 					"JucePlugin_Build_VST3=0",
 					"JucePlugin_Build_AU=0",
@@ -799,8 +793,9 @@
 				INSTALL_PATH = "$(HOME)/Library/Audio/Plug-Ins/VST/";
 				LIBRARY_STYLE = Bundle;
 				LLVM_LTO = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				MTL_HEADER_SEARCH_PATHS = "$(HOME)/JUCE/modules/juce_audio_processors/format_types/VST3_SDK $(HOME)/SDKs/VST_SDK/VST2_SDK ../../JuceLibraryCode $(HOME)/JUCE/modules $(HOME)/JUCE/modules/juce_audio_plugin_client";
+				OTHER_CODE_SIGN_FLAGS = "--timestamp";
 				OTHER_LDFLAGS = (
 					"-bundle",
 					"-lSwankyAmp",
@@ -832,8 +827,8 @@
 					"_DEBUG=1",
 					"DEBUG=1",
 					"JUCER_XCODE_MAC_F6D2F4CF=1",
-					"JUCE_APP_VERSION=1.3.1",
-					"JUCE_APP_VERSION_HEX=0x10301",
+					"JUCE_APP_VERSION=1.4.0",
+					"JUCE_APP_VERSION_HEX=0x10400",
 					"JucePlugin_Build_VST=1",
 					"JucePlugin_Build_VST3=0",
 					"JucePlugin_Build_AU=0",
@@ -892,8 +887,8 @@
 					"_DEBUG=1",
 					"DEBUG=1",
 					"JUCER_XCODE_MAC_F6D2F4CF=1",
-					"JUCE_APP_VERSION=1.3.1",
-					"JUCE_APP_VERSION_HEX=0x10301",
+					"JUCE_APP_VERSION=1.4.0",
+					"JUCE_APP_VERSION_HEX=0x10400",
 					"JucePlugin_Build_VST=1",
 					"JucePlugin_Build_VST3=0",
 					"JucePlugin_Build_AU=0",
@@ -917,8 +912,9 @@
 				INFOPLIST_PREPROCESS = NO;
 				INSTALL_PATH = "$(HOME)/Library/Audio/Plug-Ins/VST/";
 				LIBRARY_STYLE = Bundle;
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				MTL_HEADER_SEARCH_PATHS = "$(HOME)/JUCE/modules/juce_audio_processors/format_types/VST3_SDK $(HOME)/SDKs/VST_SDK/VST2_SDK ../../JuceLibraryCode $(HOME)/JUCE/modules $(HOME)/JUCE/modules/juce_audio_plugin_client";
+				OTHER_CODE_SIGN_FLAGS = "--timestamp";
 				OTHER_LDFLAGS = (
 					"-bundle",
 					"-lSwankyAmp",
@@ -957,8 +953,8 @@
 					"_NDEBUG=1",
 					"NDEBUG=1",
 					"JUCER_XCODE_MAC_F6D2F4CF=1",
-					"JUCE_APP_VERSION=1.3.1",
-					"JUCE_APP_VERSION_HEX=0x10301",
+					"JUCE_APP_VERSION=1.4.0",
+					"JUCE_APP_VERSION_HEX=0x10400",
 					"JucePlugin_Build_VST=1",
 					"JucePlugin_Build_VST3=0",
 					"JucePlugin_Build_AU=0",
